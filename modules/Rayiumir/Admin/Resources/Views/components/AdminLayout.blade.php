@@ -13,10 +13,10 @@
 </head>
 <body>
     <div class="d-flex" id="wrapper">
-        @include('Admin::inc.navbar')
+        @include('Admin::inc.sidebar')
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            @include('Admin::inc.sidebar')
+            @include('Admin::inc.navbar')
             <main class="container">
                 <div class="mt-3">
                     {{$slot}}
